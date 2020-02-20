@@ -7,7 +7,10 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #000;
 }
+
+/* Стили для блока logo */
 
 .logo {
   background-repeat: no-repeat;
@@ -23,16 +26,20 @@
   z-index: 1;
 }
 
+/* Стили для блока header */
+
 .header {
   display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  background-color: #f2f2f2;
   z-index: 0;
   padding-left: 64px;
-  /* выше установили ограничения для секции */
+}
+
+.header_theme_white-gray {
+  background-color: #f2f2f2;
 }
 
 .header__title {
@@ -88,13 +95,63 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  z-index: -2;
+/* Стили для блока description  */
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+/* Стили для блока description  */
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__brief_text {
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 30px 0;
+}
+
+.two-columns__paragraph_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:first-child {
+  margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
