@@ -1,0 +1,18 @@
+.feinman__link {
+  position: absolute;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+  top: 50%;
+  right: 48px;
+}
+
+.feinman__link::after {
+  content: " \2192";
+}
+
+.feinman__link:hover {
+  text-decoration: underline;
+}
