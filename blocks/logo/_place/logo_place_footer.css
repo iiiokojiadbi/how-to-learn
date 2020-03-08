@@ -1,3 +1,5 @@
 .logo_place_footer {
   background-image: url(./logo_white.svg);
+  max-width: 183px;
+  height: 35px;
 }
