@@ -1,6 +1,5 @@
 .kaufman__triangle {
-  max-width: 877px;
-  width: 100%;
+  width: 877px;
   height: 877px;
   background-image: url(./triangle.svg);
   background-size: contain;

@@ -2,8 +2,7 @@
   background-image: url(./logo.svg);
   position: absolute;
   z-index: 1;
-  max-width: 183px;
-  width: 100%;
+  width: 183px;
   height: 32px;
   top: 30px;
 }

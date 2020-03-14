@@ -8,6 +8,6 @@
   grid-template-columns: repeat(auto-fill, 240px);
   grid-row-gap: 60px;
   grid-column-gap: 100px;
-  max-width: 920px;
+  width: 920px;
   margin-top: 60px;
 }
